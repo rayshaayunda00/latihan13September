@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_pnp"
+
+        android:layout_gravity="center"/>
+
+    <!-- Text Selamat Datang -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di Politeknik Negeri Padang"
+        android:textSize="18sp"
+        android:textColor="#D0785C"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <!-- Location Text -->
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limau Manih, Padang, Sumbar"
+        android:textSize="14sp"
+        android:textColor="#161312"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center" />
+
+    <!-- Button 1: Manajemen Informatika -->
+    <Button
+        android:id="@+id/btn_mi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manajemen Informatika"
+        android:textAllCaps="false"
+        android:backgroundTint="#D16B4B"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button 2: Teknik Komputer -->
+    <Button
+        android:id="@+id/btn_komputer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teknik Komputer"
+        android:textAllCaps="false"
+        android:backgroundTint="#D16B4B"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+
+    <!-- Button 3: Galeri Photo -->
+    <Button
+        android:id="@+id/btn_galeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galeri Photo"
+        android:textAllCaps="false"
+        android:backgroundTint="#D16B4B"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
